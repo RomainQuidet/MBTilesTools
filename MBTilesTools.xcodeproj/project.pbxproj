@@ -10,6 +10,17 @@
 		7A68AEBB1EB251D300DC18A0 /* MBTilesTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEB11EB251D200DC18A0 /* MBTilesTools.framework */; };
 		7A68AEC01EB251D300DC18A0 /* MBTilesToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AEBF1EB251D300DC18A0 /* MBTilesToolsTests.m */; };
 		7A68AEC21EB251D300DC18A0 /* MBTilesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AEB41EB251D200DC18A0 /* MBTilesTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A68AECD1EB2521F00DC18A0 /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AECC1EB2521F00DC18A0 /* DLog.h */; };
+		7A68AED61EB2523700DC18A0 /* MBTilesReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AECE1EB2523700DC18A0 /* MBTilesReader.m */; };
+		7A68AED71EB2523700DC18A0 /* MBTilesReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AECF1EB2523700DC18A0 /* MBTilesReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A68AED81EB2523700DC18A0 /* RegionBBoxConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AED01EB2523700DC18A0 /* RegionBBoxConverter.m */; };
+		7A68AED91EB2523700DC18A0 /* RegionBBoxConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AED11EB2523700DC18A0 /* RegionBBoxConverter.h */; };
+		7A68AEDA1EB2523700DC18A0 /* NSString+Tokenize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AED21EB2523700DC18A0 /* NSString+Tokenize.m */; };
+		7A68AEDB1EB2523700DC18A0 /* NSString+Tokenize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AED31EB2523700DC18A0 /* NSString+Tokenize.h */; };
+		7A68AEDC1EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AED41EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.m */; };
+		7A68AEDD1EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AED51EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h */; };
+		7A68AEE01EB2531B00DC18A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */; };
+		7A68AEE21EB2533B00DC18A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEE11EB2533B00DC18A0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		7A68AEBA1EB251D300DC18A0 /* MBTilesToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBTilesToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A68AEBF1EB251D300DC18A0 /* MBTilesToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBTilesToolsTests.m; sourceTree = "<group>"; };
 		7A68AEC11EB251D300DC18A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A68AECC1EB2521F00DC18A0 /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLog.h; sourceTree = "<group>"; };
+		7A68AECE1EB2523700DC18A0 /* MBTilesReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTilesReader.m; sourceTree = "<group>"; };
+		7A68AECF1EB2523700DC18A0 /* MBTilesReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTilesReader.h; sourceTree = "<group>"; };
+		7A68AED01EB2523700DC18A0 /* RegionBBoxConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionBBoxConverter.m; sourceTree = "<group>"; };
+		7A68AED11EB2523700DC18A0 /* RegionBBoxConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionBBoxConverter.h; sourceTree = "<group>"; };
+		7A68AED21EB2523700DC18A0 /* NSString+Tokenize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tokenize.m"; sourceTree = "<group>"; };
+		7A68AED31EB2523700DC18A0 /* NSString+Tokenize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tokenize.h"; sourceTree = "<group>"; };
+		7A68AED41EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TrimWhiteSpace.m"; sourceTree = "<group>"; };
+		7A68AED51EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TrimWhiteSpace.h"; sourceTree = "<group>"; };
+		7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7A68AEE11EB2533B00DC18A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68AEE21EB2533B00DC18A0 /* MapKit.framework in Frameworks */,
+				7A68AEE01EB2531B00DC18A0 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,7 @@
 				7A68AEB31EB251D200DC18A0 /* MBTilesTools */,
 				7A68AEBE1EB251D300DC18A0 /* MBTilesToolsTests */,
 				7A68AEB21EB251D200DC18A0 /* Products */,
+				7A68AEDE1EB2531B00DC18A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,8 @@
 		7A68AEB31EB251D200DC18A0 /* MBTilesTools */ = {
 			isa = PBXGroup;
 			children = (
+				7A68AECC1EB2521F00DC18A0 /* DLog.h */,
+				7A68AECB1EB251DE00DC18A0 /* MBTilesReader */,
 				7A68AEB41EB251D200DC18A0 /* MBTilesTools.h */,
 				7A68AEB51EB251D200DC18A0 /* Info.plist */,
 			);
@@ -86,6 +113,30 @@
 			path = MBTilesToolsTests;
 			sourceTree = "<group>";
 		};
+		7A68AECB1EB251DE00DC18A0 /* MBTilesReader */ = {
+			isa = PBXGroup;
+			children = (
+				7A68AECE1EB2523700DC18A0 /* MBTilesReader.m */,
+				7A68AECF1EB2523700DC18A0 /* MBTilesReader.h */,
+				7A68AED01EB2523700DC18A0 /* RegionBBoxConverter.m */,
+				7A68AED11EB2523700DC18A0 /* RegionBBoxConverter.h */,
+				7A68AED21EB2523700DC18A0 /* NSString+Tokenize.m */,
+				7A68AED31EB2523700DC18A0 /* NSString+Tokenize.h */,
+				7A68AED41EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.m */,
+				7A68AED51EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h */,
+			);
+			name = MBTilesReader;
+			sourceTree = "<group>";
+		};
+		7A68AEDE1EB2531B00DC18A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A68AEE11EB2533B00DC18A0 /* MapKit.framework */,
+				7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +144,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68AEDB1EB2523700DC18A0 /* NSString+Tokenize.h in Headers */,
+				7A68AECD1EB2521F00DC18A0 /* DLog.h in Headers */,
+				7A68AED71EB2523700DC18A0 /* MBTilesReader.h in Headers */,
+				7A68AEDD1EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h in Headers */,
+				7A68AED91EB2523700DC18A0 /* RegionBBoxConverter.h in Headers */,
 				7A68AEC21EB251D300DC18A0 /* MBTilesTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68AEDC1EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.m in Sources */,
+				7A68AEDA1EB2523700DC18A0 /* NSString+Tokenize.m in Sources */,
+				7A68AED61EB2523700DC18A0 /* MBTilesReader.m in Sources */,
+				7A68AED81EB2523700DC18A0 /* RegionBBoxConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
