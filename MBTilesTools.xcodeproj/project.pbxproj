@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A68AEBB1EB251D300DC18A0 /* MBTilesTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEB11EB251D200DC18A0 /* MBTilesTools.framework */; };
-		7A68AEC01EB251D300DC18A0 /* MBTilesToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AEBF1EB251D300DC18A0 /* MBTilesToolsTests.m */; };
+		7A68AEC01EB251D300DC18A0 /* MBTilesReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AEBF1EB251D300DC18A0 /* MBTilesReaderTests.m */; };
 		7A68AEC21EB251D300DC18A0 /* MBTilesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AEB41EB251D200DC18A0 /* MBTilesTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A68AECD1EB2521F00DC18A0 /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AECC1EB2521F00DC18A0 /* DLog.h */; };
 		7A68AED61EB2523700DC18A0 /* MBTilesReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A68AECE1EB2523700DC18A0 /* MBTilesReader.m */; };
@@ -38,7 +38,7 @@
 		7A68AEB41EB251D200DC18A0 /* MBTilesTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBTilesTools.h; sourceTree = "<group>"; };
 		7A68AEB51EB251D200DC18A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A68AEBA1EB251D300DC18A0 /* MBTilesToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBTilesToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A68AEBF1EB251D300DC18A0 /* MBTilesToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBTilesToolsTests.m; sourceTree = "<group>"; };
+		7A68AEBF1EB251D300DC18A0 /* MBTilesReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBTilesReaderTests.m; sourceTree = "<group>"; };
 		7A68AEC11EB251D300DC18A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A68AECC1EB2521F00DC18A0 /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLog.h; sourceTree = "<group>"; };
 		7A68AECE1EB2523700DC18A0 /* MBTilesReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTilesReader.m; sourceTree = "<group>"; };
@@ -107,7 +107,8 @@
 		7A68AEBE1EB251D300DC18A0 /* MBTilesToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A68AEBF1EB251D300DC18A0 /* MBTilesToolsTests.m */,
+				7A68AEE31EB2544300DC18A0 /* Resources */,
+				7A68AEBF1EB251D300DC18A0 /* MBTilesReaderTests.m */,
 				7A68AEC11EB251D300DC18A0 /* Info.plist */,
 			);
 			path = MBTilesToolsTests;
@@ -135,6 +136,13 @@
 				7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A68AEE31EB2544300DC18A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A68AEC01EB251D300DC18A0 /* MBTilesToolsTests.m in Sources */,
+				7A68AEC01EB251D300DC18A0 /* MBTilesReaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
