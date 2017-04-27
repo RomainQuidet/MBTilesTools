@@ -18,6 +18,11 @@ typedef NS_ENUM(NSUInteger, MBTilesFormat) {
     MBTilesFormatPBF
 };
 
+typedef NS_ENUM(NSUInteger, MBTilesType) {
+    MBTilesTypeOverlay,
+    MBTilesTypeBaseLayer
+};
+
 @interface MBTilesReader : NSObject
 
 - (instancetype)initWithFilePath:(NSString *)path;
@@ -27,6 +32,7 @@ typedef NS_ENUM(NSUInteger, MBTilesFormat) {
 - (nullable NSString *)databaseVersion;
 - (nullable NSString *)name;
 - (MBTilesFormat)format;
+- (MBTilesType)type;
 - (MKCoordinateRegion)region;
 - (CLLocationCoordinate2D)center;
 - (NSUInteger)minZoom;

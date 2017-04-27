@@ -119,6 +119,15 @@
     return result;
 }
 
+- (MBTilesType)type {
+    NSString *type = [self metaDataValueForKey:@"type"];
+    MBTilesType result = MBTilesTypeBaseLayer;
+    if ([type isEqualToString:@"overlay"]) {
+        result = MBTilesTypeOverlay;
+    }
+    return result;
+}
+
 - (MKCoordinateRegion)region
 {
     // bbox = min Longitude , min Latitude , max Longitude , max Latitude

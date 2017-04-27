@@ -21,6 +21,7 @@
 		7A68AEDD1EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68AED51EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h */; };
 		7A68AEE01EB2531B00DC18A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */; };
 		7A68AEE21EB2533B00DC18A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68AEE11EB2533B00DC18A0 /* MapKit.framework */; };
+		7A68AEE51EB2555E00DC18A0 /* paris_france.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 7A68AEE41EB2555E00DC18A0 /* paris_france.mbtiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7A68AED51EB2523700DC18A0 /* NSMutableArray+TrimWhiteSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TrimWhiteSpace.h"; sourceTree = "<group>"; };
 		7A68AEDF1EB2531B00DC18A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		7A68AEE11EB2533B00DC18A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7A68AEE41EB2555E00DC18A0 /* paris_france.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = paris_france.mbtiles; path = testFiles/paris_france.mbtiles; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		7A68AEE31EB2544300DC18A0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7A68AEE41EB2555E00DC18A0 /* paris_france.mbtiles */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68AEE51EB2555E00DC18A0 /* paris_france.mbtiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
